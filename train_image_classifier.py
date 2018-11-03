@@ -225,7 +225,7 @@ tf.app.flags.DEFINE_string(
     'By default, None would train all the variables.')
 
 tf.app.flags.DEFINE_boolean(
-    'ignore_missing_vars', True,
+    'ignore_missing_vars', False,
     'When restoring a checkpoint would ignore missing variables.')
 
 FLAGS = tf.app.flags.FLAGS
